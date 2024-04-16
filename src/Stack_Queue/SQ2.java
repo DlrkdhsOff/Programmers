@@ -20,7 +20,7 @@ package Stack_Queue;
 import java.util.*;
 
 public class SQ2 {
-    public ArrayList<Integer> solution(int[] progresses, int[] speeds) {
+    public static ArrayList<Integer> solution(int[] progresses, int[] speeds) {
         ArrayList<Integer> list = new ArrayList<>();
         Queue<Integer> queue = new LinkedList<>();
 
@@ -28,8 +28,6 @@ public class SQ2 {
             // queue에 진도가 100이 되는 최소일수를 저장
             queue.add((int) (Math.ceil((100.0 - progresses[i]) / speeds[i])));
         }
-
-        List<Integer> answer = new ArrayList<>();
 
         // queue가 비어 있지 않을 때 까지 반복
         while (!queue.isEmpty()){
@@ -50,5 +48,12 @@ public class SQ2 {
         }
 
         return list;
+    }
+
+    public static void main(String[] args) {
+        int[] progresses = {95, 90, 99, 99, 80, 99};
+        int[] speed = {1, 1, 1, 1, 1, 1};
+
+        System.out.println(solution(progresses, speed));
     }
 }
