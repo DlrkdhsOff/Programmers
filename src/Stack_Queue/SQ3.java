@@ -32,11 +32,7 @@ public class SQ3 {
                 }
             }
         }
-        if(stack.isEmpty() && !checkFlag){
-            return true;
-        }else{
-            return false;
-        }
+        return stack.isEmpty() && !checkFlag;
     }
 
     public static void main(String[] args) {
