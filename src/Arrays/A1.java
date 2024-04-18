@@ -17,8 +17,8 @@ package Arrays;
 import java.util.*;
 
 public class A1 {
-    public static ArrayList<Integer> solution(int[] arr, int divisor) {
-        ArrayList<Integer> list = new ArrayList<>();
+    public static List<Integer> solution(int[] arr, int divisor) {
+        List<Integer> list = new ArrayList<>();
 
         for (int data : arr) {
             if(data % divisor == 0){
