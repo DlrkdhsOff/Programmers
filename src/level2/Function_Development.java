@@ -15,11 +15,11 @@
 // 작업 속도는 100 이하의 자연수입니다.
 // 배포는 하루에 한 번만 할 수 있으며, 하루의 끝에 이루어진다고 가정합니다. 예를 들어 진도율이 95%인 작업의 개발 속도가 하루에 4%라면 배포는 2일 뒤에 이루어집니다.
 
-package Stack_Queue;
+package level2;
 
 import java.util.*;
 
-public class SQ2 {
+public class Function_Development {
     public static ArrayList<Integer> solution(int[] progresses, int[] speeds) {
         ArrayList<Integer> list = new ArrayList<>();
         Queue<Integer> queue = new LinkedList<>();

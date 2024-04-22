@@ -12,11 +12,11 @@
 // 문자열 s의 길이 : 100,000 이하의 자연수
 // 문자열 s는 '(' 또는 ')' 로만 이루어져 있습니다.
 
-package Stack_Queue;
+package level2;
 
 import java.util.*;
 
-public class SQ3 {
+public class Correct_Parentheses {
     public static boolean solution(String s) {
         boolean checkFlag = false;
         Stack<String> stack = new Stack<>();

@@ -12,11 +12,11 @@
 // divisor는 자연수입니다.
 // array는 길이 1 이상인 배열입니다.
 
-package Arrays;
+package level1;
 
 import java.util.*;
 
-public class A1 {
+public class Array_Of_Numbers {
     public static List<Integer> solution(int[] arr, int divisor) {
         List<Integer> list = new ArrayList<>();
 

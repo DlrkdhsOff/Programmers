@@ -13,11 +13,11 @@
 // 배열 arr의 크기 : 1,000,000 이하의 자연수
 // 배열 arr의 원소의 크기 : 0보다 크거나 같고 9보다 작거나 같은 정수
 
-package Stack_Queue;
+package level1;
 
 import java.util.*;
 
-public class SQ1 {
+public class Same_Numbers {
     public static Stack<Integer> solution(int []arr) {
         Stack<Integer> stack = new Stack<>();
         for (int data : arr) {
